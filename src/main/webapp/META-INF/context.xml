@@ -1,0 +1,12 @@
+<Context>
+
+  <Resource name="jdbc/web_student_tracker" 
+  			auth="Container" type="javax.sql.DataSource"
+               maxActive="20" maxIdle="5" maxWait="10000"
+               username="admin" password="passer123" 
+               driverClassName="com.mysql.cj.jdbc.Driver"
+               url="jdbc:mysql://mydb01.cnmr27i6hlyf.us-east-2.rds.amazonaws.com:3306/web_student_tracker?
+               		useLegacyDatetimeCode=false&amp;
+               		serverTimezone=UTC&amp;useSSL=false"/>
+
+</Context>
